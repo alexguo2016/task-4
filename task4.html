@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>task4</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+</head>
+<style type="text/css">
+	body{margin:0px;}
+	
+	.main{width:100%;height:100%;background-image:url(background.png);}
+	
+	.head{width:100%;height:88px;background-color:rgb(95,192,205);
+	position:fixed;color:white;font-size:18px;}
+	.lText{float:left;position:relative;top:50%;transform:translateY(-50%);left:30px;}
+	.rText{float:right;position:relative;top:50%;transform:translateY(-50%);right:30px;}
+	.cText{font-size:24px;position:absolute;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);}
+	.loginBtn{position:fixed;top:427px;width:100%;height:100px;background-color:rgb(95,192,205);
+	color:white;font-size:30px;}
+	.telInput{position:fixed;top:144px;width:100%;display:flex;}
+	.passInput{position:fixed;top:258px;width:100%;display:flex;}
+	
+	.img{margin:30px 30px;float:left;flex:none;}
+	.inner{height:100px;flex:1;width:inherit}
+	
+	input{width:inherit;height:inherit;border:0px;}
+	
+	.footer{width:100%;height:37px;position:fixed;top:547px;}
+	.foot{float:right;padding-right:29px;}
+	a{color:rgb(95,192,205);font-size:18px;text-align:right}
+	
+</style>
+<body>
+<div class="main">
+	<div class="container">
+			<div class="head">
+				<div class="lText">
+				注册
+				</div>
+				<div class="cText">
+				登录
+				</div>
+				<div class="rText">
+				关闭
+				</div>
+			</div>
+		<div class="telInput">
+			<div class="img">
+				<img src="登录_03.png" />
+			</div>
+			<div class="inner">
+				<input type="text" placeholder="请输入用户名" />
+			</div>
+		</div>
+		
+		<div class="passInput">
+			<div class="img">
+				<img src="imgs_06.png" />
+			</div>
+			<div class="inner">
+				<input type="password" placeholder="请输入密码" />
+			</div>
+		</div>
+		
+		<div class="loginBtn">
+			<input class="loginBtn" type="button" value="登录" />
+		</div>
+		<div class="footer">
+			<div class="foot">
+				<a href="http://www.baidu.com">忘记密码</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
